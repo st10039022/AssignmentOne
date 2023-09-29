@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.assignmentone.StudentTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 26.558 sec <<< FAILURE!
+com.mycompany.assignmentone.StudentTest.testGenerateStudentReport()  Time elapsed: 0.013 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <> but was: <STUDENT REPORT
+Student 1
+STUDENT ID: 10111
+STUDENT NAME: John Doe
+STUDENT AGE: 20
+STUDENT EMAIL: johndoe@ymail.com
+STUDENT COURSE: disd
+>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1124)
+	at com.mycompany.assignmentone.StudentTest.testGenerateStudentReport(StudentTest.java:183)
+
+com.mycompany.assignmentone.StudentTest.testToString()  Time elapsed: 0 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <STUDENT ID: 10111
+STUDENT NAME: John Doe
+STUDENT AGE: 20
+STUDENT EMAIL: johndoe@ymail.com
+STUDENT COURSE: Computer Science
+> but was: <STUDENT ID: 10111
+STUDENT NAME: John Doe
+STUDENT AGE: 20
+STUDENT EMAIL: johndoe@ymail.com
+STUDENT COURSE: disd
+>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1124)
+	at com.mycompany.assignmentone.StudentTest.testToString(StudentTest.java:122)
+
